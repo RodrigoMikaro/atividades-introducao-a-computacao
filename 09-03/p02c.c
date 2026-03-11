@@ -15,7 +15,27 @@
 
 #include <stdio.h>
 
-int main()
+int main() {
+    int integers = 0;
+    int number;
+
+    
+
+    while (scanf("%d",&number) == 1) {
+        integers++;
+    }
+
+    printf("Number of integers in the sequence: %d\n", integers);
+
+    return 0;
+}
+
+
+
+
+
+
+/*
 {
     int x, N = 0;
 
@@ -26,3 +46,5 @@ int main()
 
     return 0;
 }
+
+*/
